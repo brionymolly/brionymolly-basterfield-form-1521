@@ -1,0 +1,74 @@
+/*
+COLOURS
+#DDD
+#F5F5F5
+#6495ED*/
+
+
+/*MEDIA QUERIES*/
+/*MAX WIDTH 25REM*/
+/*25-40REM*/
+/*40-50REM */
+/*MAX WITH 50REM*/
+
+/*MOBILE*/
+body {
+    max-width: 25rem;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+/*FORM*/
+form {
+    background-color: #F5F5F5;
+    margin-top: 1rem;
+    border: 0;
+}
+
+fieldset {
+    border: 0.2px solid #DDD;
+}
+
+.label {
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 0.2px solid #DDD;
+    background-color: #fff;
+}
+
+
+input {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+textarea {
+    width: 100%;
+    height: 2.4rem;
+    margin: 0.5rem 0;
+}
+
+#submit {
+    background-color: #6697EA;
+    color: #fff;
+    border-radius: 0.1rem;
+    border: 0;
+}
+
+/*25-40*/
+@media only screen and (max-width:40rem){
+    body {
+        max-width: 40rem;
+        min-width: 25rem;
+    }
+}
+
+/*40-50*/
+@media only screen and (max-width:50rem){
+    body {
+        max-width: 50rem;
+        min-width: 40rem;
+    }
+}
+
